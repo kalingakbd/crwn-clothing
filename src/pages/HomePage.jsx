@@ -1,7 +1,7 @@
 import React from "react";
 
-import './HomePage.styles.scss';
-import Directory from "../components/directory/Directory";
+import './styles/HomePage.styles.scss';
+import Directory from "../components/Directory";
 
 const HomePage = () => {
     return <div className='homepage'>
@@ -9,5 +9,5 @@ const HomePage = () => {
     </div>
 };
 
-export default HomePage
+export default HomePage;
 
